@@ -51,12 +51,6 @@ public class TriggerZoneUI : MonoBehaviour
         {
             panelInfo.SetActive(false);
         }
-
-        // También funciona con clic de mouse (modo PC o editor)
-        if (panelInfo.activeSelf && Input.GetMouseButtonDown(0))
-        {
-            panelInfo.SetActive(false);
-        }
     }
 }
 
