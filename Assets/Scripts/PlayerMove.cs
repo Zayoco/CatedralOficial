@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour
     private Vector3 velocity;      // almacena la velocidad vertical
     private bool isGrounded;       // verifica si está tocando el suelo
 
+    private bool estaCaminando = false;
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -40,6 +41,25 @@ public class PlayerMove : MonoBehaviour
         // Movimiento horizontal (por joystick)
         Vector3 move = transform.right * joystick.Horizontal + transform.forward * joystick.Vertical;
         controller.Move(move * SpeedMove * Time.deltaTime);
+
+        // Detectar si el jugador se está moviendo (con un pequeño umbral para evitar ruido)
+        bool movimientoActual = move.magnitude > 0.1f;
+
+        // Si cambia el estado de movimiento, imprimir solo una vez
+        if (movimientoActual && !estaCaminando)
+        {
+            estaCaminando = true;
+            Debug.Log("El jugador comenzó a moverse");
+            SoundEvents.Pasos?.Invoke(); //Sonido by Chelo :D
+
+        }
+        else if (!movimientoActual && estaCaminando)
+        {
+
+            SoundEvents.DetenerPasos?.Invoke(); //Sonido by Chelo :D
+            estaCaminando = false;
+            Debug.Log("El jugador se detuvo");
+        }
 
         // Aplicar gravedad
         velocity.y += gravity * Time.deltaTime;
