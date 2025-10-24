@@ -3883,12 +3883,143 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2110496987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2110496989}
+  - component: {fileID: 2110496988}
+  m_Layer: 0
+  m_Name: Ambiente
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2110496988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110496987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1467632047
+      Data2: 1176328830
+      Data3: -963567464
+      Data4: -1758430416
+    Path: event:/Ambients/Viento-de-ciudad
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &2110496989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110496987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.11069, y: 10.613247, z: 35.904987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4425553889448716918 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 984611434238531679, guid: 9b30a18436aca4d69858d566603b25ec,
     type: 3}
   m_PrefabInstance: {fileID: 8219082830301355439}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6247473429129516896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4898752721297533654, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.11069
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.613247
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.904987
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136435730918450317, guid: 98f6ada301217b3488aecc308cba4676,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98f6ada301217b3488aecc308cba4676, type: 3}
 --- !u!1001 &8219082830301355439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3997,7 +4128,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0bb96f523aa34b8469c6169d8efd8160, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 229252833864306911, guid: 9b30a18436aca4d69858d566603b25ec, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4005,6 +4137,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8219082830301355441}
+    - targetCorrespondingSourceObject: {fileID: 5477132389517061362, guid: 9b30a18436aca4d69858d566603b25ec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8219082830301355442}
   m_SourcePrefab: {fileID: 100100000, guid: 9b30a18436aca4d69858d566603b25ec, type: 3}
 --- !u!1 &8219082830301355440 stripped
 GameObject:
@@ -4056,6 +4192,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &8219082830301355442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219082830301355440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4074,3 +4224,5 @@ SceneRoots:
   - {fileID: 2001998}
   - {fileID: 55185435}
   - {fileID: 1285241649}
+  - {fileID: 6247473429129516896}
+  - {fileID: 2110496989}
