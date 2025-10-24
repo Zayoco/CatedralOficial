@@ -329,11 +329,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8098802744336350861, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bc0bed121bfc41958753ab83d1112aa, type: 2}
+    - target: {fileID: -2251244191874932685, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -88593771298940558, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.732998
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dc479e06bda3445f69c55b25d5196de1,
         type: 3}
       propertyPath: m_Name
       value: Patio Concluido
       objectReference: {fileID: 0}
+    - target: {fileID: 2726731778658718792, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726731778658718792, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2726731778658718792, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe9a17887d2d14f17b1f215bb0232482, type: 2}
+    - target: {fileID: 2816831734691548057, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bc0bed121bfc41958753ab83d1112aa, type: 2}
+    - target: {fileID: 3800919634655339943, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.733
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137442478868344379, guid: dc479e06bda3445f69c55b25d5196de1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe9a17887d2d14f17b1f215bb0232482, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
