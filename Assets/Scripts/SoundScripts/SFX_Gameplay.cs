@@ -24,6 +24,8 @@ public class SFX_Gameplay : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += (_, _) =>
+            masterVolume = Sli.Find("Volumen")?.GetComponent<Slider>();
     }
     void Start()
     {
