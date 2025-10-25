@@ -76,7 +76,7 @@ public class SFX_Gameplay : MonoBehaviour
         
         float volume = masterVolume.value;
         //Debug.Log("Valor actual del Scrollbar: " + volume);
-        UnityEngine.Debug.Log("Actualizando Master Volume..." + volume);
+        //UnityEngine.Debug.Log("Actualizando Master Volume..." + volume);
         RuntimeManager.StudioSystem.setParameterByName("MasterFader", volume);
         RuntimeManager.StudioSystem.getParameterByName("MasterFader", out float value);
         //Debug.Log("Valor actual del MasterFader: " + value);
