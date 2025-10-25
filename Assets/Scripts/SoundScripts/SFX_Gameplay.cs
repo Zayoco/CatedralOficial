@@ -5,10 +5,12 @@ using FMOD;
 using FMODUnity;
 using FMOD.Studio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SFX_Gameplay : MonoBehaviour
 {
     [SerializeField] EventReference pasos;
+    [SerializeField] private Slider masterVolume;
 
     private EventInstance instanciaPasos;
     private string escena;
@@ -32,6 +34,8 @@ public class SFX_Gameplay : MonoBehaviour
 
     void Update()
     {
+        ActualizarMasterVolume();
+
         // ?? Detectar si la escena cambió
         string escenaActual = SceneManager.GetActiveScene().name;
         if (escena != escenaActual)
@@ -66,5 +70,15 @@ public class SFX_Gameplay : MonoBehaviour
         {
             instanciaPasos.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
+    }
+    public void ActualizarMasterVolume() 
+    {
+        
+        float volume = masterVolume.value;
+        //Debug.Log("Valor actual del Scrollbar: " + volume);
+        //UnityEngine.Debug.Log("Actualizando Master Volume..." + volume);
+        RuntimeManager.StudioSystem.setParameterByName("MasterFader", volume);
+        RuntimeManager.StudioSystem.getParameterByName("MasterFader", out float value);
+        //Debug.Log("Valor actual del MasterFader: " + value);
     }
 }
