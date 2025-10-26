@@ -1,33 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5484502178662676846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Viento-de-ciudad
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Viento-de-ciudad
-  Guid:
-    Data1: -1467632047
-    Data2: 1176328830
-    Data3: -963567464
-    Data4: -1758430416
-  Banks:
-  - {fileID: 8384872384734800615}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 16535
---- !u!114 &-213722424302164045
+--- !u!114 &-5165704300854033739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,6 +24,53 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2483913950781274181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicMenu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicMenu
+  Guid:
+    Data1: -2063429844
+    Data2: 1236915979
+    Data3: -1389066844
+    Data4: -799948087
+  Banks:
+  - {fileID: 4176913104569948476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 124133
+--- !u!114 &-1371767171802459397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638970112997639022
+  FileSizes:
+  - Name: 
+    Value: 1096
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,24 +84,103 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2684301644925087348}
-  - {fileID: 8384872384734800615}
+  - {fileID: -1371767171802459397}
+  - {fileID: 4176913104569948476}
   EditorEvents:
-  - {fileID: -5484502178662676846}
-  - {fileID: 1211990540457749411}
-  EditorParameters: []
+  - {fileID: -2483913950781274181}
+  - {fileID: 5738438723440057467}
+  - {fileID: 413866403146319862}
+  - {fileID: 7162786815622217042}
+  EditorParameters:
+  - {fileID: 8811273178201703754}
   MasterBanks:
-  - {fileID: 8384872384734800615}
+  - {fileID: 4176913104569948476}
   StringsBanks:
-  - {fileID: 2684301644925087348}
+  - {fileID: -1371767171802459397}
   cacheVersion: 131849
-  cacheTime: 638969116348191068
+  cacheTime: 638970181012004054
   SerializableEventsDict:
-  - key: event:/Ambients/Viento-de-ciudad
+  - key: event:/Music/MusicMenu
     index: 0
-  - key: event:/SFX_Gameplay/Pasos
+  - key: event:/Ambients/Viento-de-ciudad
     index: 1
---- !u!114 &1211990540457749411
+  - key: event:/SFX_UI/Clic
+    index: 2
+  - key: event:/SFX_Gameplay/Pasos
+    index: 3
+--- !u!114 &413866403146319862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_UI/Clic
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_UI/Clic
+  Guid:
+    Data1: 1366601555
+    Data2: 1274227764
+    Data3: -552262996
+    Data4: -17132608
+  Banks:
+  - {fileID: 4176913104569948476}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58
+--- !u!114 &4176913104569948476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SoundBanksFMOD/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638970181012004054
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5738438723440057467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Viento-de-ciudad
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Viento-de-ciudad
+  Guid:
+    Data1: -1467632047
+    Data2: 1176328830
+    Data3: -963567464
+    Data4: -1758430416
+  Banks:
+  - {fileID: 4176913104569948476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16535
+--- !u!114 &7162786815622217042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,16 +199,16 @@ MonoBehaviour:
     Data3: 732441246
     Data4: -567057027
   Banks:
-  - {fileID: 8384872384734800615}
+  - {fileID: 4176913104569948476}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -213722424302164045}
+  - {fileID: -5165704300854033739}
   MinDistance: 1
   MaxDistance: 20
   Length: 14258
---- !u!114 &2684301644925087348
+--- !u!114 &8811273178201703754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,32 +217,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MasterFader
   m_EditorClassIdentifier: 
-  Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638969116348191068
-  FileSizes:
-  - Name: 
-    Value: 900
-  Exists: 1
---- !u!114 &8384872384734800615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/SoundBanksFMOD/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638969116348188188
-  FileSizes: []
+  Name: MasterFader
+  StudioPath: parameter:/MasterFader
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2591019464
+    data2: 1261436518
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

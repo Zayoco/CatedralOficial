@@ -21,12 +21,6 @@ public class SFX_Gameplay : MonoBehaviour
         SoundEvents.DetenerPasos += DetenerPasosConcreto;
     }
 
-    void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += (_, _) =>
-            masterVolume = Sli.Find("Volumen")?.GetComponent<Slider>();
-    }
     void Start()
     {
         Scene escenaActiva = SceneManager.GetActiveScene();
@@ -44,6 +38,7 @@ public class SFX_Gameplay : MonoBehaviour
         {
             escena = escenaActual;
             UnityEngine.Debug.Log("Escena actualizada a: " + escena);
+            
         }
     }
 
@@ -74,8 +69,7 @@ public class SFX_Gameplay : MonoBehaviour
         }
     }
     public void ActualizarMasterVolume() 
-    {
-        
+    {        
         float volume = masterVolume.value;
         //Debug.Log("Valor actual del Scrollbar: " + volume);
         //UnityEngine.Debug.Log("Actualizando Master Volume..." + volume);
