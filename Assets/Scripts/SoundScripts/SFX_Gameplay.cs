@@ -10,6 +10,8 @@ using UnityEngine.UI;
 public class SFX_Gameplay : MonoBehaviour
 {
     [SerializeField] EventReference pasos;
+    [SerializeField] EventReference abrirPuerta;
+    [SerializeField] EventReference cerrarPuerta;
     [SerializeField] private Slider masterVolume;
 
     private EventInstance instanciaPasos;
@@ -19,6 +21,8 @@ public class SFX_Gameplay : MonoBehaviour
     {
         SoundEvents.Pasos += ReproducirPasosConcreto;
         SoundEvents.DetenerPasos += DetenerPasosConcreto;
+        SoundEvents.AbrirPuerta += ReproducirAbrirPuerta;
+        SoundEvents.CerrarPuerta += ReproducirCerrarPuerta;
     }
 
     void Start()
@@ -26,6 +30,12 @@ public class SFX_Gameplay : MonoBehaviour
         Scene escenaActiva = SceneManager.GetActiveScene();
         instanciaPasos = RuntimeManager.CreateInstance(pasos);
         escena = escenaActiva.name;
+
+        if(escena == "escena 2")
+        {
+            ReproducirCerrarPuerta();
+        }
+        
     }
 
     void Update()
@@ -76,5 +86,20 @@ public class SFX_Gameplay : MonoBehaviour
         RuntimeManager.StudioSystem.setParameterByName("MasterFader", volume);
         RuntimeManager.StudioSystem.getParameterByName("MasterFader", out float value);
         //Debug.Log("Valor actual del MasterFader: " + value);
+    }
+
+    private void ReproducirAbrirPuerta()
+    {
+        if (!abrirPuerta.IsNull && escena != "escena 3")
+        {
+            RuntimeManager.PlayOneShot(abrirPuerta);
+        }
+    }
+    private void ReproducirCerrarPuerta()
+    {
+        if (!cerrarPuerta.IsNull)
+        {
+            RuntimeManager.PlayOneShot(cerrarPuerta);
+        }
     }
 }

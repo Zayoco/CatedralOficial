@@ -7,4 +7,6 @@ public static class SoundEvents
 {
     public static Action Pasos;
     public static Action DetenerPasos;
+    public static Action AbrirPuerta;
+    public static Action CerrarPuerta;
 }
