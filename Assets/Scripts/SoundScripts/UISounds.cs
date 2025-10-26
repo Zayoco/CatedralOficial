@@ -6,12 +6,14 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class UISounds : MonoBehaviour
 {
+    [SerializeField] SFX_Gameplay sfx_Gameplay;
     [SerializeField] EventReference clickEvent;
+    [SerializeField] EventReference menuMusic;
 
-    
-    private void Start()
+    void Start()
     {
-    
+        if(!menuMusic.IsNull && sfx_Gameplay)
+            RuntimeManager.PlayOneShot(menuMusic);
     }
     void Update()
     {        

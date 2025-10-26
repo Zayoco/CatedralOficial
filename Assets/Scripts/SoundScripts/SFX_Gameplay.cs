@@ -14,6 +14,7 @@ public class SFX_Gameplay : MonoBehaviour
 
     private EventInstance instanciaPasos;
     private string escena;
+    public bool sliderActive = false;
 
     private void OnEnable()
     {
@@ -21,7 +22,12 @@ public class SFX_Gameplay : MonoBehaviour
         SoundEvents.DetenerPasos += DetenerPasosConcreto;
     }
 
-   
+    private void Awake()
+    {
+        ActualizarMasterVolume();
+        sliderActive = true;
+
+    }
     void Start()
     {
         Scene escenaActiva = SceneManager.GetActiveScene();
@@ -70,7 +76,8 @@ public class SFX_Gameplay : MonoBehaviour
     }
     public void ActualizarMasterVolume() 
     {
-        
+        if (masterVolume == null) return;
+
         float volume = masterVolume.value;
         //Debug.Log("Valor actual del Scrollbar: " + volume);
         //UnityEngine.Debug.Log("Actualizando Master Volume..." + volume);
