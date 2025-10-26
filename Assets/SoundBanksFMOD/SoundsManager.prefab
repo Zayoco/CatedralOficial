@@ -51,3 +51,4 @@ MonoBehaviour:
       Data3: 732441246
       Data4: -567057027
     Path: event:/SFX_Gameplay/Pasos
+  masterVolume: {fileID: 0}
