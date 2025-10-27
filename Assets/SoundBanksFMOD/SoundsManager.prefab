@@ -51,4 +51,18 @@ MonoBehaviour:
       Data3: 732441246
       Data4: -567057027
     Path: event:/SFX_Gameplay/Pasos
+  abrirPuerta:
+    Guid:
+      Data1: 1074249795
+      Data2: 1272871734
+      Data3: 585887407
+      Data4: -342154933
+    Path: event:/SFX_Gameplay/Puerta_Open
+  cerrarPuerta:
+    Guid:
+      Data1: -2066071394
+      Data2: 1118465558
+      Data3: 561009853
+      Data4: 795343624
+    Path: event:/SFX_Gameplay/Puerta_Closed
   masterVolume: {fileID: 0}
