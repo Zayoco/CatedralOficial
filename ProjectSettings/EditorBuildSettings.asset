@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UI/PrincipalMenu.unity
+    path: Assets/Scenes/0 PrincipalMenu.unity
     guid: 5f224b5de7fbafe49a0d8d687ab5ec56
   - enabled: 1
-    path: Assets/Scenes/escena 1.unity
+    path: Assets/Scenes/1 escena.unity
     guid: 7e4e3c0f2272647849f94e453235b2a9
   - enabled: 1
-    path: Assets/Scenes/escena 2.unity
+    path: Assets/Scenes/2 escena.unity
     guid: f7b7d231c75e940a59aab13cea00fb44
   - enabled: 1
-    path: Assets/Scenes/escena 3.unity
+    path: Assets/Scenes/3 escena.unity
     guid: b40541c3885a642ce99a336eb81943e4
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2597c3247bc391f4480e0498a62a0e67,
