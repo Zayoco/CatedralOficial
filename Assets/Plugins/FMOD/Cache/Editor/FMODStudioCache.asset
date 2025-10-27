@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638971693692366651
+  lastModified: 638971609692253277
   FileSizes: []
   Exists: 1
 --- !u!114 &-6589834504372505075
@@ -335,19 +335,19 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8942455488979083767}
   cacheVersion: 131849
-  cacheTime: 638971693692368370
+  cacheTime: 638971609692253277
   SerializableEventsDict:
-  - key: event:/Music/MusicMenu
-    index: 0
-  - key: event:/Ambients/Viento-de-ciudad
-    index: 1
-  - key: event:/SFX_UI/Clic
-    index: 2
-  - key: event:/SFX_Gameplay/Pasos
-    index: 3
   - key: event:/Ambients/VientoOnly
-    index: 4
+    index: 0
+  - key: event:/Music/MusicMenu
+    index: 1
   - key: event:/SFX_Gameplay/Puerta_Open
+    index: 2
+  - key: event:/Ambients/Viento-de-ciudad
+    index: 3
+  - key: event:/SFX_UI/Clic
+    index: 4
+  - key: event:/SFX_Gameplay/Pasos
     index: 5
   - key: event:/Ambients/Campana
     index: 6
@@ -673,7 +673,7 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638971693692368370
+  lastModified: 638971609692253277
   FileSizes:
   - Name: 
     Value: 1338
