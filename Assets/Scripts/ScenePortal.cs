@@ -18,6 +18,7 @@ public class ScenePortal : MonoBehaviour
             FadeManager fade = FindObjectOfType<FadeManager>();
             if (fade != null)
             {
+                SoundEvents.AbrirPuerta?.Invoke();// Sound by Chelo :D
                 StartCoroutine(fade.FadeOutAndLoad(sceneToLoad));
             }
             else
