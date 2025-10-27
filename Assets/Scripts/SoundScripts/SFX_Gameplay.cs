@@ -59,7 +59,7 @@ public class SFX_Gameplay : MonoBehaviour
         if (escena != escenaActual)
         {
             escena = escenaActual;
-            UnityEngine.Debug.Log("Escena actualizada a: " + escena);
+            //UnityEngine.Debug.Log("Escena actualizada a: " + escena);
             
         }
     }
@@ -85,9 +85,9 @@ public class SFX_Gameplay : MonoBehaviour
             {
                 instanciaPasos.setParameterByName("Trinario0-2", 0);
             }
-                
-            
-            UnityEngine.Debug.Log("Reproduciendo pasos en: " + escena);
+
+
+            // UnityEngine.Debug.Log("Reproduciendo pasos en: " + escena);
         }
     }
 
