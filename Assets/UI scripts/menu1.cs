@@ -9,6 +9,7 @@ public class menu1 : MonoBehaviour
     [SerializeField] int indice;
     [SerializeField] private GameObject PanelSalirEscritorio;
     [SerializeField] private GameObject PanelOpciones;
+    [SerializeField] private GameObject PanelCreditos;
 
     // Start is called before the first frame update
     private void Awake()
@@ -58,8 +59,16 @@ public class menu1 : MonoBehaviour
                 PanelOpciones.SetActive(false);
                 Time.timeScale = 1f; // Congela todo el tiempo del juego
                 break;
+            case 7:
+                PanelCreditos.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case 8:
+                PanelCreditos.SetActive(false);
+                Time.timeScale = 1f;
+                break;
             default:
-                Debug.Log("Índice no válido");
+                Debug.Log("ï¿½ndice no vï¿½lido");
                 break;
         }
     }
