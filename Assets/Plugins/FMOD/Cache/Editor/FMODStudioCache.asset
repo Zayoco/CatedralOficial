@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638973553424351704
+  lastModified: 638973567186914666
   FileSizes: []
   Exists: 1
 --- !u!114 &-6589834504372505075
@@ -336,7 +336,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8942455488979083767}
   cacheVersion: 131849
-  cacheTime: 638973553424409553
+  cacheTime: 638973567186987831
   SerializableEventsDict:
   - key: event:/Ambients/VientoOnly
     index: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638973553424409553
+  lastModified: 638973567186987831
   FileSizes:
   - Name: 
     Value: 1376
