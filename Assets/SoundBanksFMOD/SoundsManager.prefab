@@ -65,4 +65,12 @@ MonoBehaviour:
       Data3: 561009853
       Data4: 795343624
     Path: event:/SFX_Gameplay/Puerta_Closed
+  interactuarBotonCuadro:
+    Guid:
+      Data1: 1366601555
+      Data2: 1274227764
+      Data3: -552262996
+      Data4: -17132608
+    Path: event:/SFX_UI/Clic
+  campana: {fileID: 0}
   masterVolume: {fileID: 0}

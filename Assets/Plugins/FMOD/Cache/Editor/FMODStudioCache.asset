@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638971517697102838
+  lastModified: 638973553424351704
   FileSizes: []
   Exists: 1
 --- !u!114 &-6589834504372505075
@@ -328,6 +328,7 @@ MonoBehaviour:
   - {fileID: 3330866561877403844}
   - {fileID: -6589834504372505075}
   - {fileID: 1638035941996414127}
+  - {fileID: 8547053051705797685}
   EditorParameters:
   - {fileID: 3509564019030960653}
   MasterBanks:
@@ -335,7 +336,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8942455488979083767}
   cacheVersion: 131849
-  cacheTime: 638971517697107919
+  cacheTime: 638973553424409553
   SerializableEventsDict:
   - key: event:/Ambients/VientoOnly
     index: 0
@@ -353,6 +354,8 @@ MonoBehaviour:
     index: 6
   - key: event:/SFX_Gameplay/Puerta_Closed
     index: 7
+  - key: event:/Ambients/Interior
+    index: 8
 --- !u!114 &413866403146319862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -633,7 +636,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 124133
+  Length: 290000
+--- !u!114 &8547053051705797685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Interior
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Interior
+  Guid:
+    Data1: 1096678968
+    Data2: 1180912272
+    Data3: 1037133697
+    Data4: -1598230254
+  Banks:
+  - {fileID: -6634149466333482591}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 248281
 --- !u!114 &8811273178201703754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,10 +703,10 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638971517697107919
+  lastModified: 638973553424409553
   FileSizes:
   - Name: 
-    Value: 1338
+    Value: 1376
   Exists: 1
 --- !u!114 &8957569291424120546
 MonoBehaviour:

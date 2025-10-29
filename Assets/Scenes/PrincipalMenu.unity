@@ -865,6 +865,7 @@ MonoBehaviour:
   indice: 6
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 1815701640}
+  PanelCreditos: {fileID: 0}
 --- !u!1 &173455659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,6 +1161,7 @@ MonoBehaviour:
   indice: 5
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 1815701640}
+  PanelCreditos: {fileID: 0}
 --- !u!1 &190249305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1542,7 @@ MonoBehaviour:
   indice: 4
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 0}
+  PanelCreditos: {fileID: 0}
 --- !u!114 &382637499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,6 +1704,7 @@ MonoBehaviour:
   indice: 3
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 0}
+  PanelCreditos: {fileID: 0}
 --- !u!114 &397563228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,6 +2022,7 @@ MonoBehaviour:
   indice: 6
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 793094202}
+  PanelCreditos: {fileID: 0}
 --- !u!114 &506443947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2419,6 +2424,7 @@ MonoBehaviour:
   indice: 0
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 0}
+  PanelCreditos: {fileID: 0}
 --- !u!1 &553545577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4862,6 +4868,7 @@ MonoBehaviour:
   indice: 2
   PanelSalirEscritorio: {fileID: 629994547}
   PanelOpciones: {fileID: 0}
+  PanelCreditos: {fileID: 0}
 --- !u!1 &1638593657
 GameObject:
   m_ObjectHideFlags: 0
@@ -5131,6 +5138,7 @@ MonoBehaviour:
   indice: 0
   PanelSalirEscritorio: {fileID: 0}
   PanelOpciones: {fileID: 0}
+  PanelCreditos: {fileID: 0}
 --- !u!114 &1671019949
 MonoBehaviour:
   m_ObjectHideFlags: 0

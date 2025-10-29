@@ -13,6 +13,7 @@ public class SFX_Gameplay : MonoBehaviour
     [SerializeField] EventReference pasos;
     [SerializeField] EventReference abrirPuerta;
     [SerializeField] EventReference cerrarPuerta;
+    [SerializeField] EventReference interactuarBotonCuadro;
 
     [SerializeField] private StudioEventEmitter campana;
 
@@ -123,6 +124,13 @@ public class SFX_Gameplay : MonoBehaviour
         {
             campana.Play();
             yield return new WaitForSeconds(60f);
+        }
+    }
+    public void ReproducirBotonCuadro()
+    {
+        if (!interactuarBotonCuadro.IsNull)
+        {
+            RuntimeManager.PlayOneShot(interactuarBotonCuadro);
         }
     }
 }
