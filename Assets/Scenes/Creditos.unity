@@ -689,7 +689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &626284728
 RectTransform:
   m_ObjectHideFlags: 0
@@ -706,7 +706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -385, y: -1907}
+  m_AnchoredPosition: {x: -549, y: -1967.0004}
   m_SizeDelta: {x: 288.7523, y: 389.4281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626284729
@@ -764,7 +764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &729484380
 RectTransform:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 415, y: -1907}
+  m_AnchoredPosition: {x: 251, y: -1967}
   m_SizeDelta: {x: 288.7523, y: 389.4281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729484381
@@ -1321,7 +1321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1425809063
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1338,7 +1338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: -1892}
+  m_AnchoredPosition: {x: -150, y: -1962.0004}
   m_SizeDelta: {x: 288.7523, y: 389.4281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1425809064
@@ -1609,8 +1609,8 @@ MonoBehaviour:
     de Fotografias: Adobe Photoshop\nGesti\xF3n de audio: FL Mod-FL Studio\n\nGesti\xF3n
     y seguimiento del proyecto: Figma y Notion\n\nCr\xE9ditos Finales\n\nA todos
     quienes hicieron posible este recorrido virtual,\ngracias por su dedicaci\xF3n,
-    compromiso y creatividad.\n\n\n\n\n\n\n\n\n\nOsvaldo  Pinto          Erik Alejo           
-    Deran Calle\n\n\n\nGracias por visitar este recorrido por la Catedral Metropolitana
+    compromiso y creatividad.\n\n\n\n\n\n\n\n\n\n\nOsvaldo  Pinto          Erik Alejo           
+    Deran Calle\n\n\nGracias por visitar este recorrido por la Catedral Metropolitana
     de Sucre,\nla catedra Primada de Bolivia."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bcf10f94fac54e24ac34a548e3d7691, type: 2}
