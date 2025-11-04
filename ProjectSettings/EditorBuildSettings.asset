@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/escena 3.unity
     guid: b40541c3885a642ce99a336eb81943e4
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 2ff6b5a01f67a4154832feda251c5fec
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2597c3247bc391f4480e0498a62a0e67,
       type: 2}

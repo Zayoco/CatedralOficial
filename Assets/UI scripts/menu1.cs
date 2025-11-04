@@ -59,14 +59,11 @@ public class menu1 : MonoBehaviour
                 Time.timeScale = 1f; 
                 break;
             case 7:
-                PanelCreditos.SetActive(true);
-                Time.timeScale = 0f;
-                PanelCreditos.GetComponentInChildren<Animator>().Play("CreditosScroll", -1, 0f);
+                SceneManager.LoadScene("Creditos");
                 break;
             case 8:
-                PanelCreditos.SetActive(false);
-                Time.timeScale = 1f;
-                break;
+                SceneManager.LoadScene("PrincipalMenu");
+                break;    
             default:
                 Debug.Log("indice no valido");
                 break;
