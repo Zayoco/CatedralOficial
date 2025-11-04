@@ -51,24 +51,24 @@ public class menu1 : MonoBehaviour
                 break;
             case 5:
                 PanelOpciones.SetActive(true);
-                Time.timeScale = 0f; // Congela todo el tiempo del juego
-                //if (player != null)
-                //    player.GetComponent<CharacterController>().enabled = false; // Desactiva movimiento
+                Time.timeScale = 0f; 
+
                 break;
             case 6:
                 PanelOpciones.SetActive(false);
-                Time.timeScale = 1f; // Congela todo el tiempo del juego
+                Time.timeScale = 1f; 
                 break;
             case 7:
                 PanelCreditos.SetActive(true);
                 Time.timeScale = 0f;
+                PanelCreditos.GetComponentInChildren<Animator>().Play("CreditosScroll", -1, 0f);
                 break;
             case 8:
                 PanelCreditos.SetActive(false);
                 Time.timeScale = 1f;
                 break;
             default:
-                Debug.Log("�ndice no v�lido");
+                Debug.Log("indice no valido");
                 break;
         }
     }
