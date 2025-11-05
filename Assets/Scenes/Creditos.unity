@@ -631,8 +631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.439163, y: 134.94926}
-  m_SizeDelta: {x: 920.1649, y: 1352.9747}
+  m_AnchoredPosition: {x: -29.0278, y: 135.90594}
+  m_SizeDelta: {x: 922.7345, y: 1370.9613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577505982
 MonoBehaviour:
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73adde76a1a9a4d98a070daef3531564, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8e5022a18e3ba4bb7b7703f7b813f595, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1595,7 +1595,7 @@ MonoBehaviour:
     predisposici\xF3n,\nal Centro de Producci\xF3n Audiovisual y Multimedia por su
     dedicaci\xF3n y esfuerzo,\ny a la Carrera de Ingenier\xEDa en Dise\xF1o y Animaci\xF3n
     Digital por el conocimiento y apoyo brindados durante el desarrollo de este proyecto.\n\nAgradecimientos
-    especiales a:\n\nIng. Pedro Camargo Vargas\nencargado del Centro de Producci\xF3n
+    especiales a:\n\nIng. Pedro Camargo Vegas\nencargado del Centro de Producci\xF3n
     Audiovisual y Multimedia.\nsupervisor del equipo de modelado del Centro de Producci\xF3n
     Audiovisual y Multimedia.\n\nIng. Pablo Saavedra Rodr\xEDguez\nsupervisor del
     equipo de modelado del Centro de Producci\xF3n Audiovisual y Multimedia.\n\nEquipo
