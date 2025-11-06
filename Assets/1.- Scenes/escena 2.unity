@@ -68936,6 +68936,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2121100072}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2123123055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.55962
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45c9c23f90e0048118170416c51e4506,
+        type: 3}
+      propertyPath: m_Name
+      value: Templete
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45c9c23f90e0048118170416c51e4506, type: 3}
 --- !u!1001 &2139819458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92547,3 +92615,4 @@ SceneRoots:
   - {fileID: 211364150}
   - {fileID: 1602258298}
   - {fileID: 1528422991}
+  - {fileID: 2123123055}
