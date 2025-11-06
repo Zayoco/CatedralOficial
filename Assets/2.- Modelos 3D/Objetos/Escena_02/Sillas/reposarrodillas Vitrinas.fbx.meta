@@ -3,7 +3,12 @@ guid: ce70287a7ae95413e8a314ac818df71d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cruz_ReposaRodillas
+    second: {fileID: 2100000, guid: bcf89c06dd43e4ac295b842c5c21fed0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
