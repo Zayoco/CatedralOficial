@@ -8,92 +8,92 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BakeBanderaBol
-    second: {fileID: 2100000, guid: 975bd09f5696248cdb90da08f63c2edc, type: 2}
+    second: {fileID: 2100000, guid: aabfe3d5b741f4432961723154f47647, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BakeBanderaChuq
-    second: {fileID: 2100000, guid: 090fdb39a18674a21aa055883c6c9f36, type: 2}
+    second: {fileID: 2100000, guid: 0dc7571e0cc7540e68d324b21d2daab2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Candelabro
-    second: {fileID: 2100000, guid: 75993e6c9ee3c4362963658c20b3fe22, type: 2}
+    second: {fileID: 2100000, guid: d3defd17be304456a957ad999ca14bd2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Candelabro.003
-    second: {fileID: 2100000, guid: 2121504dd3b264dd0bd74fe61a0a62ed, type: 2}
+    second: {fileID: 2100000, guid: 96dc0d4e4ab77425f9845b51545e47cf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Candelabro.004
-    second: {fileID: 2100000, guid: 802fed91680f74a4c9bc5d8f00eba551, type: 2}
+    second: {fileID: 2100000, guid: 170c4eb506cc148a5ab0ac3a8db2f8ba, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Candelabro.005
-    second: {fileID: 2100000, guid: 319d53051fdd74e6f8046c228a3f9f9f, type: 2}
+    second: {fileID: 2100000, guid: 816fd1fa783634e0fac10cf582db00e4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: "Imagen_\xC1ngel_01"
-    second: {fileID: 2100000, guid: 7a5ffa38e654f477c9f522f79e195b1e, type: 2}
+    second: {fileID: 2100000, guid: ce898b28eb4e34d2f86ee4a81abc0848, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 5d59a2e024b7b4c059d1536672cd8767, type: 2}
+    second: {fileID: 2100000, guid: 2e110f5f5fcab419b9d8b8430dd66ecf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_01
-    second: {fileID: 2100000, guid: b549d2bd79109476baa1140a8de9b5b3, type: 2}
+    second: {fileID: 2100000, guid: 59dff3ffd22db4e0b8525c953f7c18fc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_01_Oro
-    second: {fileID: 2100000, guid: 4e04d2f3fd9e44c39a05decdcdc8309a, type: 2}
+    second: {fileID: 2100000, guid: e73e0196d767c43ff9b449e84eecf90e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_01_Roughness
-    second: {fileID: 2100000, guid: 0bc0155c232bd40c48f7a2cc489b9992, type: 2}
+    second: {fileID: 2100000, guid: ae720fac512c94c81867c3ab742ae6c0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_02
-    second: {fileID: 2100000, guid: f830209211a394d4babe34e70af7f7e2, type: 2}
+    second: {fileID: 2100000, guid: 56f1d7ec057eb487796ed502821f45b1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_02_Oro
-    second: {fileID: 2100000, guid: be684d606287b43dd9283a350fe28a84, type: 2}
+    second: {fileID: 2100000, guid: d2181fa0f72a34a38a0a6f6a2aa7fafc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_03
-    second: {fileID: 2100000, guid: d52f2d967b282497aab931b915aec013, type: 2}
+    second: {fileID: 2100000, guid: 8cb6b2ca5d96e4cc0b4e3dcf92ad8f4f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_03_Oro
-    second: {fileID: 2100000, guid: 9ee00bd0aeffd454ab2bd8a2103fb16e, type: 2}
+    second: {fileID: 2100000, guid: fd760064e2fbf4f6ca6cb52a4a9402e7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_Adornos_01
-    second: {fileID: 2100000, guid: 1a6fc4a8819c84dfc9029fa6576f3240, type: 2}
+    second: {fileID: 2100000, guid: 81cd9b9003e2a489c807b07a61332afa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_Adornos_01_Oro
-    second: {fileID: 2100000, guid: 78ba511a0e0aa4b4daf8f1f2e2786fc4, type: 2}
+    second: {fileID: 2100000, guid: 5f285da8582f943c1a6ef4fb6ba2fe9b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Templete_Adornos_02_Oro
-    second: {fileID: 2100000, guid: 44bbd509b1dc342029a22594784c6663, type: 2}
+    second: {fileID: 2100000, guid: c062ed0d5149f477facad60022a67455, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -168,7 +168,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -183,11 +183,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

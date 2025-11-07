@@ -3,7 +3,12 @@ guid: dd928d3166a064ccaaf17532f5f4676e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Confesionario02
+    second: {fileID: 2100000, guid: 88be003d4620841d687c8db905bd2fa2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
