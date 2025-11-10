@@ -9,7 +9,7 @@ public class TouchController : MonoBehaviour
 
     void Start()
     {
-        // Buscar referencias automáticamente si no están asignadas
+        // Buscar referencias automtic si no estan asignadas pos
         if (_FixedTouchField == null)
             _FixedTouchField = FindObjectOfType<FixedTouchField>();
         if (_CameraLook == null)
@@ -18,7 +18,7 @@ public class TouchController : MonoBehaviour
 
     void Update()
     {
-        // Evitar errores si aún no existen
+        // Evitar errores si aun no existen
         if (_FixedTouchField == null || _CameraLook == null)
             return;
 

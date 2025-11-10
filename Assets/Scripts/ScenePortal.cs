@@ -14,17 +14,15 @@ public class ScenePortal : MonoBehaviour
         {
             isTransitioning = true;
 
-            // Busca FadeManager en la escena actual
             FadeManager fade = FindObjectOfType<FadeManager>();
             if (fade != null)
             {
-                SoundEvents.AbrirPuerta?.Invoke();// Sound by Chelo :D
+                SoundEvents.AbrirPuerta?.Invoke();
                 StartCoroutine(fade.FadeOutAndLoad(sceneToLoad));
             }
             else
             {
                 Debug.LogWarning("Chale no da :(");
-                // carga la escena sin faded
                 StartCoroutine(LoadWithoutFade());
             }
         }
@@ -32,7 +30,7 @@ public class ScenePortal : MonoBehaviour
 
     private IEnumerator LoadWithoutFade()
     {
-        yield return new WaitForSeconds(2f); // Espera un time a.., segundo antes de cambiar
+        yield return new WaitForSeconds(2f); 
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoad);
     }
 }

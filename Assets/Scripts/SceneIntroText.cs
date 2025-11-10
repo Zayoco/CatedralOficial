@@ -6,10 +6,10 @@ using TMPro;
 public class SceneIntroText : MonoBehaviour
 {
     public TextMeshProUGUI messageText;
-    public float displayTime = 5f;   // tiempo visible antes del fade...
-    public float fadeDuration = 2f;  // tiempo del desv
+    public float displayTime = 5f;   
+    public float fadeDuration = 2f;  
 
-    public string customMessage = ""; // que decirr
+    public string customMessage = ""; // que decir :v
 
     void Start()
     {
@@ -20,11 +20,10 @@ public class SceneIntroText : MonoBehaviour
     {
         if (messageText == null)
         {
-            Debug.LogWarning("No se asignó un TextMeshProUGUI en SceneIntroText.");
+            Debug.LogWarning("No se asignï¿½ un TextMeshProUGUI en SceneIntroText.");
             yield break;
         }
 
-        // Muestra texto
         if (string.IsNullOrEmpty(customMessage))
             messageText.text = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         else
@@ -32,10 +31,8 @@ public class SceneIntroText : MonoBehaviour
 
         messageText.gameObject.SetActive(true);
 
-        // Mantiene el texto visible unos seg
         yield return new WaitForSeconds(displayTime);
 
-        // Empieza el desv
         float elapsedTime = 0f;
         Color originalColor = messageText.color;
 
@@ -47,7 +44,6 @@ public class SceneIntroText : MonoBehaviour
             yield return null;
         }
 
-        // Oculta completamente el texto al final
         messageText.gameObject.SetActive(false);
     }
 }

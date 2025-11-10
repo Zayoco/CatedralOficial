@@ -9,7 +9,7 @@ using UnityEngine.UI;
         public static TouchSensitivityManager instance;
 
         private const string SensitivityKey = "TouchSensitivity";
-        private float currentSensitivity = 0.2f; // Valor base (ajústalo a gusto)
+        private float currentSensitivity = 0.2f; 
 
         private void Awake()
         {
@@ -35,7 +35,6 @@ using UnityEngine.UI;
         {
             yield return null;
 
-            // Busca sliders con el tag "TouchSlider"
             Slider[] sliders = GameObject.FindObjectsOfType<Slider>(true);
             foreach (Slider s in sliders)
             {

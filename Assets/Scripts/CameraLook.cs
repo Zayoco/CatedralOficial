@@ -23,7 +23,7 @@ public class CameraLook : MonoBehaviour
         XMove = LockAxis.x * finalSensitivity;
         YMove = LockAxis.y * finalSensitivity;
 
-        // Rotación vertical (pitch)
+        // Rotacion vertical (pitch)
         XRotation -= YMove;
         XRotation = Mathf.Clamp(XRotation, -90f, 90f);
 

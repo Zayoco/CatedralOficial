@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TriggerZoneUI : MonoBehaviour
 {
-    public GameObject botonMostrar;   // Botón que aparece dentro del trigger
-    public GameObject panelInfo;      // Panel con imagen
-    public GameObject panelLink;      // Segundo panel (link)
+    public GameObject botonMostrar;   
+    public GameObject panelInfo;      
+    public GameObject panelLink;     
 
     void Start()
     {
@@ -38,19 +38,17 @@ public class TriggerZoneUI : MonoBehaviour
         }
     }
 
-    // Mostrar panel normal
+
     public void MostrarPanel()
     {
         panelInfo.SetActive(true);
     }
 
-    // Mostrar panel con link
     public void MostrarPanelLink()
     {
         panelLink.SetActive(true);
     }
 
-    // Botón para cerrar paneles
     public void CerrarPanel()
     {
         panelInfo.SetActive(false);

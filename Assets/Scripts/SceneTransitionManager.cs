@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class SceneTransitionManager : MonoBehaviour
 {
     public static SceneTransitionManager Instance;
-    public Image fadeImage; // imagen del Canvas para el fundido (negro)
+    public Image fadeImage; 
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // mantiene el fade entre escenas
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
@@ -21,7 +21,6 @@ public class SceneTransitionManager : MonoBehaviour
         }
     }
 
-    // Método simple para cargar escena con fundido
     public void LoadScene(string sceneName)
     {
         StartCoroutine(FadeAndLoadScene(sceneName));

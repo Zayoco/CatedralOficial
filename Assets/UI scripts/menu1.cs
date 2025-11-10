@@ -11,7 +11,6 @@ public class menu1 : MonoBehaviour
     [SerializeField] private GameObject PanelOpciones;
     [SerializeField] private GameObject PanelCreditos;
 
-    // Start is called before the first frame update
     private void Awake()
     {
         //SceneManager.LoadScene("PrincipalMenu");
@@ -21,7 +20,6 @@ public class menu1 : MonoBehaviour
         //SceneManager.LoadScene("PrincipalMenu");
     }
 
-    // Update is called once per frame
     void Update()
     {
         

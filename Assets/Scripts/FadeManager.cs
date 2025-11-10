@@ -5,26 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class FadeManager : MonoBehaviour
 {
-    public Animator animator;      // Animator del Canvas
-    public Canvas canvasFade;      // Canvas con la imagen negra
+    public Animator animator;      
+    public Canvas canvasFade;  
     public float fadeDuration = 2f;
 
     private void Start()
     {
-        // Al iniciar la escena, asegurarse que el canvas esté activo y ejecutar FadeIn
         canvasFade.gameObject.SetActive(true);
         StartCoroutine(FadeIn());
     }
 
-    // FadeIn: pantalla negra → visible
     public IEnumerator FadeIn()
     {
-        animator.SetTrigger("FadeOut");  // Trigger FadeIn en Animator
+        animator.SetTrigger("FadeOut");  
         yield return new WaitForSeconds(fadeDuration);
         canvasFade.gameObject.SetActive(false);
     }
 
-    // FadeOut: visible → pantalla negra antes de cargar otra escena
     public IEnumerator FadeOutAndLoad(string sceneName)
     {
         canvasFade.gameObject.SetActive(true);
