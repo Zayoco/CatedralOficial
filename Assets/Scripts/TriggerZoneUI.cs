@@ -1,14 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TriggerZoneUI : MonoBehaviour
 {
-    public GameObject botonMostrar;   // El botón que se activa dentro del trigger
-    public GameObject panelInfo;      // El panel o canvas con la imagen
-
-    private bool jugadorDentro = false;
+    public GameObject botonMostrar;   // Botón que aparece dentro del trigger
+    public GameObject panelInfo;      // Panel con imagen
+    public GameObject panelLink;      // Segundo panel (link)
 
     void Start()
     {
@@ -17,13 +15,15 @@ public class TriggerZoneUI : MonoBehaviour
 
         if (panelInfo != null)
             panelInfo.SetActive(false);
+
+        if (panelLink != null)
+            panelLink.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            jugadorDentro = true;
             botonMostrar.SetActive(true);
         }
     }
@@ -32,25 +32,30 @@ public class TriggerZoneUI : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            jugadorDentro = false;
             botonMostrar.SetActive(false);
             panelInfo.SetActive(false);
+            panelLink.SetActive(false);
         }
     }
 
-    // Llamado desde el botón en el inspector
+    // Mostrar panel normal
     public void MostrarPanel()
     {
         panelInfo.SetActive(true);
     }
 
-    void Update()
+    // Mostrar panel con link
+    public void MostrarPanelLink()
     {
-        // Si el panel está activo y el usuario toca cualquier parte de la pantalla
-        if (panelInfo.activeSelf && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            panelInfo.SetActive(false);
-        }
+        panelLink.SetActive(true);
+    }
+
+    // Botón para cerrar paneles
+    public void CerrarPanel()
+    {
+        panelInfo.SetActive(false);
+        panelLink.SetActive(false);
     }
 }
+
 
