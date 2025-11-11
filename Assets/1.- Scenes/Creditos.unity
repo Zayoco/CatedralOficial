@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 969167365}
   - component: {fileID: 969167364}
   m_Layer: 0
-  m_Name: MenuSounds
+  m_Name: CreditsSounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,11 +1046,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -2063429844
-      Data2: 1236915979
-      Data3: -1389066844
-      Data4: -799948087
-    Path: event:/Music/MusicMenu
+      Data1: -405805200
+      Data2: 1264897932
+      Data3: 863133100
+      Data4: 88837466
+    Path: event:/Music/Credits
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
