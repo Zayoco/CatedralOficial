@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: f7b7d231c75e940a59aab13cea00fb44
+  m_OcclusionCullingData: {fileID: 36300000, guid: 91483b31dc4234999a88da1e9c53aee5,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -18456,6 +18457,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 99519053}
+        m_TargetAssemblyTypeName: SFX_Gameplay, Assembly-CSharp
+        m_MethodName: ReproducirBotonCuadro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &560181457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25753,7 +25766,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5161fcd72baa6457895f36b5a8ddd6ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.5
+      value: 20.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5161fcd72baa6457895f36b5a8ddd6ae,
         type: 3}
@@ -55304,8 +55317,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.032692384, y: 0.034591936, z: 0.020238318}
-  m_Center: {x: 0.0015568384, y: 0.011892217, z: -0.0074062394}
+  m_Size: {x: 0.032692384, y: 0.036998108, z: 0.020238318}
+  m_Center: {x: 0.0015568384, y: 0.010689188, z: -0.00740624}
 --- !u!1 &1800438998
 GameObject:
   m_ObjectHideFlags: 0
@@ -66196,6 +66209,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 99519053}
+        m_TargetAssemblyTypeName: SFX_Gameplay, Assembly-CSharp
+        m_MethodName: ReproducirBotonCuadro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1994297970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72647,7 +72672,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.5
+      value: 20.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45c9c23f90e0048118170416c51e4506,
         type: 3}

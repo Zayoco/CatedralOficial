@@ -431,7 +431,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 896839307}
   - {fileID: 2029170510}
+  - {fileID: 504365395}
   - {fileID: 626284728}
   - {fileID: 1420922667}
   - {fileID: 2078324864}
@@ -598,6 +600,168 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &504365394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504365395}
+  - component: {fileID: 504365397}
+  - component: {fileID: 504365396}
+  m_Layer: 5
+  m_Name: Text Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &504365395
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504365394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 194543069}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -164, y: -2597.28}
+  m_SizeDelta: {x: 1291.1646, y: 5194.5596}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &504365396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504365394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\n\n\n\n\nLa construcci\xF3n de la Catedral Metropolitana de Sucre se
+    llev\xF3 a cabo entre los a\xF1os 1551 y 1712.\nUbicada en la c\xE9ntrica Plaza
+    25 de Mayo de la ciudad de Sucre \u2013 Bolivia, constituye un punto de referencia
+    tur\xEDstico, hist\xF3rico y religioso de gran relevancia.\n\nFue can\xF3nicamente
+    erigida como iglesia catedral de la regi\xF3n de Charcas (o La Plata) el 27 de
+    junio de 1552, siendo reconocida como la primera catedral de Bolivia.\n\nEn 1772,
+    se instal\xF3 su hist\xF3rico reloj, adquirido en Londres por el arzobispo de
+    la \xE9poca. Su compleja instalaci\xF3n evidenci\xF3 la importancia que Sucre
+    ten\xEDa entonces dentro del Virreinato del R\xEDo de la Plata.\n\n\n\nExpresamos
+    nuestro sincero agradecimiento a la Catedral Metropolitana de Sucre por su amable
+    predisposici\xF3n,\nal Centro de Producci\xF3n Audiovisual y Multimedia por su
+    dedicaci\xF3n y esfuerzo,\ny a la Carrera de Ingenier\xEDa en Dise\xF1o y Animaci\xF3n
+    Digital por el conocimiento y apoyo brindados durante el desarrollo de este proyecto.\n\n\n\nIng.
+    Pedro Camargo Vargas.\nencargado del Centro de Producci\xF3n Audiovisual y Multimedia.\nsupervisor
+    del equipo de modelado del Centro de Producci\xF3n Audiovisual y Multimedia.\n\nIng.
+    Pablo Saavedra Rodr\xEDguez.\nsupervisor del equipo de modelado del Centro de
+    Producci\xF3n Audiovisual y Multimedia.\n\n\n\nModelado 3D: Erik Gadiel Alejo\nEsculpido:
+    Deran Zahid Calle Choque\nTexturizado: Osvaldo Dennis Pinto Barron\nProgramaci\xF3n
+    y l\xF3gica: Erik Gadiel Alejo\nDise\xF1o gr\xE1fico (UI): Osvaldo Dennis Pinto
+    Barron\nIluminaci\xF3n: Deran Zahid Calle Choque\nDise\xF1o de sonido: Marcelo
+    Daniel Gallardo Coria\n\n\n\nJheyson Jhonny Rocha Osa\nJose Gabriel Tomianovic
+    Soruco\nIsaac Andres Salamanca Zurita\n\n\n\nMotor de desarrollo: Unity\nLenguaje
+    de programaci\xF3n: C#\nModelado 3D: Blender\nEdici\xF3n de imagen y texturas:
+    Blender\nTratamiento de Fotografias: Adobe Photoshop\nGesti\xF3n de audio: F
+    Mod - FL Studio\n\nGesti\xF3n y seguimiento del proyecto: Figma y Notion\n\n\n\n\nA
+    todos quienes hicieron posible este recorrido virtual,\ngracias por su dedicaci\xF3n,
+    compromiso y creatividad.\n\n\n\n\n\n\n\n\n\n\n\n\nGracias por visitar este recorrido
+    por la\nCatedral Metropolitana de Sucre\n\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4bcf10f94fac54e24ac34a548e3d7691, type: 2}
+  m_sharedMaterial: {fileID: 6301783116783853545, guid: 4bcf10f94fac54e24ac34a548e3d7691,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4289769648
+  m_fontColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 49
+  m_fontSizeBase: 49
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 32
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &504365397
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504365394}
+  m_CullTransparentMesh: 1
 --- !u!1 &577505980
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,8 +871,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -687, y: -1955}
-  m_SizeDelta: {x: 247.6745, y: 389.4281}
+  m_AnchoredPosition: {x: -680, y: -1978.9305}
+  m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626284729
 MonoBehaviour:
@@ -747,6 +911,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626284727}
+  m_CullTransparentMesh: 1
+--- !u!1 &896839306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896839307}
+  - component: {fileID: 896839309}
+  - component: {fileID: 896839308}
+  m_Layer: 5
+  m_Name: Text Tittle Init
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &896839307
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896839306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 194543069}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -164, y: -2597.28}
+  m_SizeDelta: {x: 1291.1646, y: 5194.5596}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &896839308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896839306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Catedral Primada de Bolivia / Catedral Metropolitana de Sucre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nErik_Alejo  
+    Osvaldo_Pinto   Deran_Calle  \_Jhonny_Rocha\n\n\n\n\nla catedra Primada de Bolivia."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4bcf10f94fac54e24ac34a548e3d7691, type: 2}
+  m_sharedMaterial: {fileID: 6301783116783853545, guid: 4bcf10f94fac54e24ac34a548e3d7691,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284784069
+  m_fontColor: {r: 0.7735849, g: 0.6175908, b: 0.39044145, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 32
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &896839309
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896839306}
   m_CullTransparentMesh: 1
 --- !u!1 &926763224
 GameObject:
@@ -1264,8 +1565,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 314, y: -1955}
-  m_SizeDelta: {x: 247.6745, y: 389.4281}
+  m_AnchoredPosition: {x: 321.00003, y: -1978.931}
+  m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143520345
 MonoBehaviour:
@@ -1339,8 +1640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: -1955}
-  m_SizeDelta: {x: 247.6745, y: 389.4281}
+  m_AnchoredPosition: {x: -352.99997, y: -1978.931}
+  m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420922668
 MonoBehaviour:
@@ -1537,7 +1838,7 @@ GameObject:
   - component: {fileID: 2029170512}
   - component: {fileID: 2029170511}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text Tittle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1582,37 +1883,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Catedral Primada de Bolivia / Catedral Metropolitana de Sucre\n\nHistoria
-    de la Catedral\n\nLa construcci\xF3n de la Catedral Metropolitana de Sucre se
-    llev\xF3 a cabo entre los a\xF1os 1551 y 1712.\nUbicada en la c\xE9ntrica Plaza
-    25 de Mayo de la ciudad de Sucre \u2013 Bolivia, constituye un punto de referencia
-    tur\xEDstico, hist\xF3rico y religioso de gran relevancia.\n\nFue can\xF3nicamente
-    erigida como iglesia catedral de la regi\xF3n de Charcas (o La Plata) el 27 de
-    junio de 1552, siendo reconocida como la primera catedral de Bolivia.\n\nEn 1772,
-    se instal\xF3 su hist\xF3rico reloj, adquirido en Londres por el arzobispo de
-    la \xE9poca. Su compleja instalaci\xF3n evidenci\xF3 la importancia que Sucre
-    ten\xEDa entonces dentro del Virreinato del R\xEDo de la Plata.\n\nAgradecimientos\n\nExpresamos
-    nuestro sincero agradecimiento a la Catedral Metropolitana de Sucre por su amable
-    predisposici\xF3n,\nal Centro de Producci\xF3n Audiovisual y Multimedia por su
-    dedicaci\xF3n y esfuerzo,\ny a la Carrera de Ingenier\xEDa en Dise\xF1o y Animaci\xF3n
-    Digital por el conocimiento y apoyo brindados durante el desarrollo de este proyecto.\n\nAgradecimientos
-    especiales a:\n\nIng. Pedro Camargo Vargas.\nencargado del Centro de Producci\xF3n
-    Audiovisual y Multimedia.\nsupervisor del equipo de modelado del Centro de Producci\xF3n
-    Audiovisual y Multimedia.\n\nIng. Pablo Saavedra Rodr\xEDguez.\nsupervisor del
-    equipo de modelado del Centro de Producci\xF3n Audiovisual y Multimedia.\n\nEquipo
-    de Desarrollo\n\nModelado 3D: Erik Gadiel Alejo\nEsculpido: Deran Zahid Calle
-    Choque\nTexturizado: Osvaldo Dennis Pinto Barron\nProgramaci\xF3n y l\xF3gica:
-    Erik Gadiel Alejo\nDise\xF1o gr\xE1fico (UI): Osvaldo Dennis Pinto Barron\nIluminaci\xF3n:
-    Deran Zahid Calle Choque\nDise\xF1o de sonido: Marcelo Daniel Gallardo Coria\n\nColaboradores
-    \n\nJheyson Jhonny Rocha Osa\nJose Gabriel Tomianovic Soruco\nIsaac Andres Salamanca
-    Zurita\n\nHerramientas Utilizadas\n\nMotor de desarrollo: Unity\nLenguaje de
-    programaci\xF3n: C#\nModelado 3D: Blender\nEdici\xF3n de imagen y texturas: Blender\nTratamiento
-    de Fotografias: Adobe Photoshop\nGesti\xF3n de audio: FL Mod-FL Studio\n\nGesti\xF3n
-    y seguimiento del proyecto: Figma y Notion\n\nCr\xE9ditos Finales\n\nA todos
-    quienes hicieron posible este recorrido virtual,\ngracias por su dedicaci\xF3n,
-    compromiso y creatividad.\n\n\n\n\n\n\n\n\n\n\nErik_Alejo   Osvaldo_Pinto   Deran_Calle 
-    \_Jhonny_Rocha\n\n\nGracias por visitar este recorrido por la Catedral Metropolitana
-    de Sucre,\nla catedra Primada de Bolivia."
+  m_text: "\n\n\nHistoria de la Catedral\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nAgradecimientos\n\n\n\n\n\n\n\n\n\nAgradecimientos
+    especiales a:\n\n\n\n\n\n\n\n\n\n\n\nEquipo de Desarrollo\n\n\n\n\n\n\n\n\n\nColaboradores
+    \n\n\n\n\n\nHerramientas Utilizadas\n\n\n\n\n\n\n\n\n\n\nCr\xE9ditos Finales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bcf10f94fac54e24ac34a548e3d7691, type: 2}
   m_sharedMaterial: {fileID: 6301783116783853545, guid: 4bcf10f94fac54e24ac34a548e3d7691,
@@ -1622,8 +1895,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289769648
-  m_fontColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    rgba: 4284784069
+  m_fontColor: {r: 0.7735849, g: 0.6175908, b: 0.39044145, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1646,7 +1919,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 36
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1724,8 +1997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: -1955}
-  m_SizeDelta: {x: 247.6745, y: 389.4281}
+  m_AnchoredPosition: {x: -9.99996, y: -1978.931}
+  m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2078324865
 MonoBehaviour:
