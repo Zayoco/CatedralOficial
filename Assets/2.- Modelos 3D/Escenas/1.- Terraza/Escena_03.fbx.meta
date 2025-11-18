@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 8d19c1748353d4db2a3a47caaac6a00a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeBarandas.001
+    second: {fileID: 2100000, guid: b8d57e705c684421195938df66f5859d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeBarandas2
+    second: {fileID: 2100000, guid: 8aa7f74f93d534a8e88a3cd209bfd6b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeColumnas
+    second: {fileID: 2100000, guid: e3571bb592f9c4e7aa2c6eabfe3ca042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeColumnas2
+    second: {fileID: 2100000, guid: 9421f56f0e2224a68a751ad0c64d5c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeCubitos
+    second: {fileID: 2100000, guid: 3c20c95ffac204c20b06211101125b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeCupulaPrincipal
+    second: {fileID: 2100000, guid: 74851adaf06c64438a64894ef8c2fca3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeEscaleras
+    second: {fileID: 2100000, guid: 260c4399404a846b2b1eee0f483034f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeParedesTerraza
+    second: {fileID: 2100000, guid: 553a62f84b57c4a25b1c06a77bc250e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakePiso2Terraza
+    second: {fileID: 2100000, guid: 389e805d7802b4854830569f328f3ebf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakePisoTerraza
+    second: {fileID: 2100000, guid: 4000fd041969148d7a950f3adfcb7b52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeSoporteBarandas
+    second: {fileID: 2100000, guid: 1a5525d158bed4750b4b6b64ada095fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeVentana
+    second: {fileID: 2100000, guid: 6fec670db99554bfc91fb09639f50a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeVidrio
+    second: {fileID: 2100000, guid: 189b31ffc9800437bb034475481a3aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BakeVidrio2Ventanas
+    second: {fileID: 2100000, guid: ef28da407d76149eba81622904ebdf88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camapanas_metal
+    second: {fileID: 2100000, guid: a4a8fd5268e764d0f9650efb6fc3011e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Campanas_Madera
+    second: {fileID: 2100000, guid: 14af6e9ec91984ab7b18925401509d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupula_01
+    second: {fileID: 2100000, guid: 4e0bcf6493cd74a5281907508cae5f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupula_02
+    second: {fileID: 2100000, guid: ce0762f34c4fb4ad79c0ea97e5bab2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupula_Pilares
+    second: {fileID: 2100000, guid: 6513cd713f2214b8c81e58b89f1bb9aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupula_Vidrio
+    second: {fileID: 2100000, guid: 36a99c928bbb04e0e822fce74e5cdd31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rejas.002
+    second: {fileID: 2100000, guid: e69e4c0ff28634c4b85716cd1dc8667c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rejas.003
+    second: {fileID: 2100000, guid: b66d813f5461946e0a435d40ee007012, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reloj.001
+    second: {fileID: 2100000, guid: 21c17feed6664488b82225f223c3a12b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_01
+    second: {fileID: 2100000, guid: 7c416b3d504c34fb28153c65eeb06b10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_02
+    second: {fileID: 2100000, guid: 32643eab01f5142baa09288b97efb1e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_03
+    second: {fileID: 2100000, guid: d67a10b9b8c994f3786a53e823fbf949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_Estatua
+    second: {fileID: 2100000, guid: 234943f13a8f545df9dd8832ab42dfdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_Objetos_01
+    second: {fileID: 2100000, guid: 920d97f0fbd8b432b8150e6e7c7f3791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_Objetos_02
+    second: {fileID: 2100000, guid: eb70e2ba403ca462ea2e4c2d2aceeb87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yeso_Verde
+    second: {fileID: 2100000, guid: e92d42759180a41c9a8cc28dba18d497, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yeso_Verde.001
+    second: {fileID: 2100000, guid: d8c4c723b7e0d4e87ba6217254caf7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yeso_blanco
+    second: {fileID: 2100000, guid: 5545fda5e72bd4439bc4b72ad6c4043e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yeso_blanco.001
+    second: {fileID: 2100000, guid: fb28c43414de14f67a9a4ea786d4d232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bakeBalustrada
+    second: {fileID: 2100000, guid: 3641059385ce844ef9fbf7ff37ba3986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bakeEstructura]Ventanas
+    second: {fileID: 2100000, guid: 1d7b6394b9ea347f4983cf73771c52e4, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
