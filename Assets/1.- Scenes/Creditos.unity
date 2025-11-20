@@ -870,7 +870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -1978.9}
+  m_AnchoredPosition: {x: -157, y: -1978.9}
   m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626284729
@@ -969,8 +969,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Catedral Primada de Bolivia / Catedral Metropolitana de Sucre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nErik_Alejo          
-    Osvaldo_Pinto         Deran_Calle\n\n\n\n\nla catedra Primada de Bolivia."
+    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOsvaldo
+    Pinto         Erik Alejo          Deran_Calle\n\n\n\n\nla catedra Primada de
+    Bolivia."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bcf10f94fac54e24ac34a548e3d7691, type: 2}
   m_sharedMaterial: {fileID: 6301783116783853545, guid: 4bcf10f94fac54e24ac34a548e3d7691,
@@ -1564,7 +1565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -177, y: -1978.931}
+  m_AnchoredPosition: {x: -543, y: -1978.931}
   m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1420922668
@@ -1921,7 +1922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246.00002, y: -1978.931}
+  m_AnchoredPosition: {x: 232, y: -1978.931}
   m_SizeDelta: {x: 247.6745, y: 369.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2078324865
