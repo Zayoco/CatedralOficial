@@ -1,290 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6880579286587981178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_Gameplay/Puerta_Open
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_Gameplay/Puerta_Open
-  Guid:
-    Data1: 1074249795
-    Data2: 1272871734
-    Data3: 585887407
-    Data4: -342154933
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 3242308798075382619}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3100
---- !u!114 &-6634149466333482591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/SoundBanksFMOD/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638990846394464511
-  FileSizes: []
-  Exists: 1
---- !u!114 &-6589834504372505075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Campana
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Campana
-  Guid:
-    Data1: 223624586
-    Data2: 1116356795
-    Data3: -1530055795
-    Data4: 1619012549
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11000
---- !u!114 &-6256551448728727169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_Gameplay/Puerta_Open
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_Gameplay/Puerta_Open
-  Guid:
-    Data1: 1074249795
-    Data2: 1272871734
-    Data3: 585887407
-    Data4: -342154933
-  Banks:
-  - {fileID: 4176913104569948476}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -5868858573188810511}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3100
---- !u!114 &-5868858573188810511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Puerta_Open/Binario0-1
-  m_EditorClassIdentifier: 
-  Name: Binario0-1
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 571096959
-    data2: 3492242747
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-5718581684234289867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Aves
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Aves
-  Guid:
-    Data1: 1820378546
-    Data2: 1085156044
-    Data3: -1785853565
-    Data4: 719280319
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 25991
---- !u!114 &-5165704300854033739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Pasos/Trinario0-2
-  m_EditorClassIdentifier: 
-  Name: Trinario0-2
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 2794262930
-    data2: 2289092465
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4697011336592231724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_UI/Clic
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_UI/Clic
-  Guid:
-    Data1: 1366601555
-    Data2: 1274227764
-    Data3: -552262996
-    Data4: -17132608
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 58
---- !u!114 &-3971956301682228417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/VientoOnly
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/VientoOnly
-  Guid:
-    Data1: -445037268
-    Data2: 1223001134
-    Data3: 2060984478
-    Data4: 1218797857
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 41892
---- !u!114 &-3932745668792190984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Viento-de-ciudad
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Viento-de-ciudad
-  Guid:
-    Data1: -1467632047
-    Data2: 1176328830
-    Data3: -963567464
-    Data4: -1758430416
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 14535
---- !u!114 &-2725482582655599735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_Gameplay/Puerta_Closed
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_Gameplay/Puerta_Closed
-  Guid:
-    Data1: -2066071394
-    Data2: 1118465558
-    Data3: 561009853
-    Data4: 795343624
-  Banks:
-  - {fileID: 4176913104569948476}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1820
---- !u!114 &-2483913950781274181
+--- !u!114 &-8966585307049042356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,15 +19,15 @@ MonoBehaviour:
     Data3: -1389066844
     Data4: -799948087
   Banks:
-  - {fileID: 4176913104569948476}
+  - {fileID: -438954378989951257}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 124133
---- !u!114 &-1371767171802459397
+  Length: 290000
+--- !u!114 &-5441672415318483706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -326,181 +42,12 @@ MonoBehaviour:
   Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638971684160755169
+  lastModified: 638991574239444894
   FileSizes:
   - Name: 
-    Value: 1338
+    Value: 1506
   Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 8942455488979083767}
-  - {fileID: -6634149466333482591}
-  EditorEvents:
-  - {fileID: -3971956301682228417}
-  - {fileID: 8391319117972744250}
-  - {fileID: -6880579286587981178}
-  - {fileID: -3932745668792190984}
-  - {fileID: -4697011336592231724}
-  - {fileID: 3330866561877403844}
-  - {fileID: -6589834504372505075}
-  - {fileID: 1638035941996414127}
-  - {fileID: 8547053051705797685}
-  - {fileID: 6296135994644465081}
-  - {fileID: -5718581684234289867}
-  - {fileID: 2274966896287904793}
-  EditorParameters:
-  - {fileID: 3509564019030960653}
-  MasterBanks:
-  - {fileID: -6634149466333482591}
-  StringsBanks:
-  - {fileID: 8942455488979083767}
-  cacheVersion: 131849
-  cacheTime: 638990846394472219
-  SerializableEventsDict:
-  - key: event:/Ambients/VientoOnly
-    index: 0
-  - key: event:/Music/MusicMenu
-    index: 1
-  - key: event:/SFX_Gameplay/Puerta_Open
-    index: 2
-  - key: event:/Ambients/Viento-de-ciudad
-    index: 3
-  - key: event:/SFX_UI/Clic
-    index: 4
-  - key: event:/SFX_Gameplay/Pasos
-    index: 5
-  - key: event:/Ambients/Campana
-    index: 6
-  - key: event:/SFX_Gameplay/Puerta_Closed
-    index: 7
-  - key: event:/Ambients/Interior
-    index: 8
-  - key: event:/Music/Credits
-    index: 9
-  - key: event:/Ambients/Aves
-    index: 10
-  - key: event:/Ambients/Aves 2
-    index: 11
---- !u!114 &413866403146319862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_UI/Clic
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_UI/Clic
-  Guid:
-    Data1: 1366601555
-    Data2: 1274227764
-    Data3: -552262996
-    Data4: -17132608
-  Banks:
-  - {fileID: 4176913104569948476}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 58
---- !u!114 &1638035941996414127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_Gameplay/Puerta_Closed
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_Gameplay/Puerta_Closed
-  Guid:
-    Data1: -2066071394
-    Data2: 1118465558
-    Data3: 561009853
-    Data4: 795343624
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1820
---- !u!114 &2274966896287904793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Aves 2
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Aves 2
-  Guid:
-    Data1: 1451182506
-    Data2: 1182784395
-    Data3: -1371507020
-    Data4: 954126427
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9500
---- !u!114 &2442526355733680313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/VientoOnly
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/VientoOnly
-  Guid:
-    Data1: -445037268
-    Data2: 1223001134
-    Data3: 2060984478
-    Data4: 1218797857
-  Banks:
-  - {fileID: 4176913104569948476}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 41892
---- !u!114 &3242308798075382619
+--- !u!114 &-3597770132818244550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -524,7 +71,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &3330866561877403844
+--- !u!114 &-3291143250378417671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -534,67 +81,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_Gameplay/Pasos
+  m_Name: event:/SFX_Gameplay/Puerta_Open
   m_EditorClassIdentifier: 
-  Path: event:/SFX_Gameplay/Pasos
+  Path: event:/SFX_Gameplay/Puerta_Open
   Guid:
-    Data1: 1232357513
-    Data2: 1237797604
-    Data3: 732441246
-    Data4: -567057027
+    Data1: 1074249795
+    Data2: 1272871734
+    Data3: 585887407
+    Data4: -342154933
   Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
+  - {fileID: -438954378989951257}
+  IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
-  - {fileID: 6527426194725557392}
+  - {fileID: -3597770132818244550}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3649
---- !u!114 &3509564019030960653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MasterFader
-  m_EditorClassIdentifier: 
-  Name: MasterFader
-  StudioPath: parameter:/MasterFader
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2591019464
-    data2: 1261436518
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &4176913104569948476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/SoundBanksFMOD/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638971684160753948
-  FileSizes: []
-  Exists: 1
---- !u!114 &5738438723440057467
+  Length: 3100
+--- !u!114 &-3094779220168928205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -613,7 +118,7 @@ MonoBehaviour:
     Data3: -963567464
     Data4: -1758430416
   Banks:
-  - {fileID: 4176913104569948476}
+  - {fileID: -438954378989951257}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -621,7 +126,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14535
---- !u!114 &6296135994644465081
+--- !u!114 &-2996097321464142603
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -640,7 +145,7 @@ MonoBehaviour:
     Data3: 863133100
     Data4: 88837466
   Banks:
-  - {fileID: -6634149466333482591}
+  - {fileID: -438954378989951257}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -648,7 +153,194 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123000
---- !u!114 &6527426194725557392
+--- !u!114 &-1762193044415916977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/VientoOnly
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/VientoOnly
+  Guid:
+    Data1: -445037268
+    Data2: 1223001134
+    Data3: 2060984478
+    Data4: 1218797857
+  Banks:
+  - {fileID: -438954378989951257}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41892
+--- !u!114 &-438954378989951257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/SoundBanksFMOD/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638991574239444894
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-241061982704470678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Interior
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Interior
+  Guid:
+    Data1: 1096678968
+    Data2: 1180912272
+    Data3: 1037133697
+    Data4: -1598230254
+  Banks:
+  - {fileID: -438954378989951257}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 248281
+--- !u!114 &-165902819846717768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_UI/Clic
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_UI/Clic
+  Guid:
+    Data1: 1366601555
+    Data2: 1274227764
+    Data3: -552262996
+    Data4: -17132608
+  Banks:
+  - {fileID: -438954378989951257}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 58
+--- !u!114 &-20807363434604647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Aves 2
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Aves 2
+  Guid:
+    Data1: 1451182506
+    Data2: 1182784395
+    Data3: -1371507020
+    Data4: 954126427
+  Banks:
+  - {fileID: -438954378989951257}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9500
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -5441672415318483706}
+  - {fileID: -438954378989951257}
+  EditorEvents:
+  - {fileID: -1762193044415916977}
+  - {fileID: -8966585307049042356}
+  - {fileID: -241061982704470678}
+  - {fileID: -3291143250378417671}
+  - {fileID: -3094779220168928205}
+  - {fileID: -165902819846717768}
+  - {fileID: -2996097321464142603}
+  - {fileID: 3811496567454784710}
+  - {fileID: 8949476105198176953}
+  - {fileID: 4288510784230516764}
+  - {fileID: -20807363434604647}
+  - {fileID: 1574995885337790102}
+  EditorParameters:
+  - {fileID: 4614722626289041216}
+  MasterBanks:
+  - {fileID: -438954378989951257}
+  StringsBanks:
+  - {fileID: -5441672415318483706}
+  cacheVersion: 131849
+  cacheTime: 638991574239444894
+  SerializableEventsDict:
+  - key: event:/Ambients/VientoOnly
+    index: 0
+  - key: event:/Music/MusicMenu
+    index: 1
+  - key: event:/Ambients/Interior
+    index: 2
+  - key: event:/SFX_Gameplay/Puerta_Open
+    index: 3
+  - key: event:/Ambients/Viento-de-ciudad
+    index: 4
+  - key: event:/SFX_UI/Clic
+    index: 5
+  - key: event:/Music/Credits
+    index: 6
+  - key: event:/SFX_Gameplay/Pasos
+    index: 7
+  - key: event:/Ambients/Campana
+    index: 8
+  - key: event:/SFX_Gameplay/Puerta_Closed
+    index: 9
+  - key: event:/Ambients/Aves 2
+    index: 10
+  - key: event:/Ambients/Aves
+    index: 11
+--- !u!114 &10560384187145894
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,7 +364,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &7162786815622217042
+--- !u!114 &1574995885337790102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambients/Aves
+  m_EditorClassIdentifier: 
+  Path: event:/Ambients/Aves
+  Guid:
+    Data1: 1820378546
+    Data2: 1085156044
+    Data3: -1785853565
+    Data4: 719280319
+  Banks:
+  - {fileID: -438954378989951257}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25991
+--- !u!114 &3811496567454784710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -691,16 +410,16 @@ MonoBehaviour:
     Data3: 732441246
     Data4: -567057027
   Banks:
-  - {fileID: 4176913104569948476}
+  - {fileID: -438954378989951257}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5165704300854033739}
+  - {fileID: 10560384187145894}
   MinDistance: 1
   MaxDistance: 20
   Length: 3649
---- !u!114 &8391319117972744250
+--- !u!114 &4288510784230516764
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,51 +429,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/MusicMenu
+  m_Name: event:/SFX_Gameplay/Puerta_Closed
   m_EditorClassIdentifier: 
-  Path: event:/Music/MusicMenu
+  Path: event:/SFX_Gameplay/Puerta_Closed
   Guid:
-    Data1: -2063429844
-    Data2: 1236915979
-    Data3: -1389066844
-    Data4: -799948087
+    Data1: -2066071394
+    Data2: 1118465558
+    Data3: 561009853
+    Data4: 795343624
   Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
+  - {fileID: -438954378989951257}
+  IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 290000
---- !u!114 &8547053051705797685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambients/Interior
-  m_EditorClassIdentifier: 
-  Path: event:/Ambients/Interior
-  Guid:
-    Data1: 1096678968
-    Data2: 1180912272
-    Data3: 1037133697
-    Data4: -1598230254
-  Banks:
-  - {fileID: -6634149466333482591}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 248281
---- !u!114 &8811273178201703754
+  Length: 1820
+--- !u!114 &4614722626289041216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -778,27 +470,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &8942455488979083767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/SoundBanksFMOD/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638990846394472219
-  FileSizes:
-  - Name: 
-    Value: 1506
-  Exists: 1
---- !u!114 &8957569291424120546
+--- !u!114 &8949476105198176953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -817,9 +489,9 @@ MonoBehaviour:
     Data3: -1530055795
     Data4: 1619012549
   Banks:
-  - {fileID: 4176913104569948476}
+  - {fileID: -438954378989951257}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
