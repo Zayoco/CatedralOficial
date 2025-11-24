@@ -36,6 +36,8 @@ public class menu1 : MonoBehaviour
                 break;
             case 2:
                 PanelSalirEscritorio.SetActive(true);
+                PanelOpciones.SetActive(false);
+
                 break;
             case 3:
                 Debug.Log("Saliendo...");
@@ -46,6 +48,7 @@ public class menu1 : MonoBehaviour
                 break;
             case 4:
                 PanelSalirEscritorio.SetActive(false);
+                PanelOpciones.SetActive(true);
                 break;
             case 5:
                 PanelOpciones.SetActive(true);
@@ -53,7 +56,7 @@ public class menu1 : MonoBehaviour
 
                 break;
             case 6:
-                PanelOpciones.SetActive(false);
+                PanelOpciones.SetActive(true);
                 Time.timeScale = 1f; 
                 break;
             case 7:
