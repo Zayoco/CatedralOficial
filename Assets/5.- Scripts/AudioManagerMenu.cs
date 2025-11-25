@@ -35,7 +35,7 @@ public class AudioManagerMenu : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Esperar un frame para que la UI esté lista
+        // Esperar un frame para que la UI estï¿½ lista
         StartCoroutine(AssignSlidersNextFrame());
     }
 
@@ -43,7 +43,7 @@ public class AudioManagerMenu : MonoBehaviour
     {
         yield return null;
 
-        // Busca todos los sliders con el tag "VolumeSlider"
+        // Busca los sliders con el tag "VolumeSlider"
         Slider[] sliders = GameObject.FindObjectsOfType<Slider>(true);
 
         foreach (Slider s in sliders)
@@ -53,7 +53,7 @@ public class AudioManagerMenu : MonoBehaviour
                 // Asignar valor actual
                 s.value = currentVolume;
 
-                // Borrar listeners viejos y añadir uno nuevo
+                // Borrar listeners viejos y aï¿½adir uno nuevo
                 s.onValueChanged.RemoveAllListeners();
                 s.onValueChanged.AddListener(delegate { SetVolume(s.value); });
             }
