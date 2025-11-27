@@ -30832,6 +30832,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 21106853581410155, guid: d41534c22881bef409815a129e9b5140,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.48
+      objectReference: {fileID: 0}
     - target: {fileID: 50754954277266222, guid: d41534c22881bef409815a129e9b5140,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31034,10 +31039,11 @@ PrefabInstance:
     - {fileID: 6202205962355229237, guid: d41534c22881bef409815a129e9b5140, type: 3}
     - {fileID: 7862892919199937902, guid: d41534c22881bef409815a129e9b5140, type: 3}
     - {fileID: 3566207899841815972, guid: d41534c22881bef409815a129e9b5140, type: 3}
+    - {fileID: -3779517098955070864, guid: d41534c22881bef409815a129e9b5140, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: d41534c22881bef409815a129e9b5140,
         type: 3}
-      insertIndex: 41
+      insertIndex: 40
       addedObject: {fileID: 2063881027}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -5290656006346018464, guid: d41534c22881bef409815a129e9b5140,
