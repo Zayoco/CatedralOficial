@@ -24,7 +24,15 @@ EditorBuildSettings:
     path: Assets/1.- Scenes/Creditos.unity
     guid: 2ff6b5a01f67a4154832feda251c5fec
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 319dea86bb25e174dbce76ff30df7314,
+      type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2597c3247bc391f4480e0498a62a0e67,
       type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 070b9452d0c298245a9deb4e7f654fd9, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e0b2dc4d479dcc245a4bb1991a3f1db5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 548458dc708e61449918cdad5c685952,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8b4dc3995d4df22488f34abc687a7be7,
+      type: 2}
