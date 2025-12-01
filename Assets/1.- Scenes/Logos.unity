@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 245387173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: 9.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -391,8 +391,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1589.171, y: 848.8785, z: -1464.6997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -413,7 +413,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 3b200c9d91241426782fa79743d3a125, type: 3}
   - {fileID: 32900000, guid: 9cccfe1e6a0ea4a2cb449fd039dc94a5, type: 3}
   - {fileID: 32900000, guid: 6ef5053542c8745fa9f9b75b17494c1f, type: 3}
-  nextScene: PrincipalMenu
+  nextScene: escena 1
 --- !u!1 &1982896289
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,7 +544,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1982896293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
