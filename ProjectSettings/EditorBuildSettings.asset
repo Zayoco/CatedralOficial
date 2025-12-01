@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/1.- Scenes/Logos.unity
     guid: 1f9f79d4c3d2f46f7ae5367974b02c3f
-  - enabled: 1
+  - enabled: 0
     path: Assets/1.- Scenes/PrincipalMenu.unity
     guid: 5f224b5de7fbafe49a0d8d687ab5ec56
   - enabled: 1
@@ -35,4 +35,6 @@ EditorBuildSettings:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 548458dc708e61449918cdad5c685952,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8b4dc3995d4df22488f34abc687a7be7,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: dafe7b5784f866540b059b8156505cd1,
       type: 2}
